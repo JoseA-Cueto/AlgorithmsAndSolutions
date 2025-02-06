@@ -10,6 +10,7 @@ class Program
         Console.WriteLine("3. Distancia de Hamming");
         Console.WriteLine("4. Contador de Palabras");
         Console.WriteLine("5. Contar Numeros");
+        Console.WriteLine("6. Check Prime Number");
         Console.Write("Opción: ");
 
         int opcion = int.Parse(Console.ReadLine());
@@ -30,6 +31,9 @@ class Program
                 break;
             case 5:
                 CountNumbers.Ejecutar();
+                break;
+            case 6:
+                PrimeNumbers.Execute();
                 break;
             default:
                 Console.WriteLine("Opción no válida.");
