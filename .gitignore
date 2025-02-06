@@ -1,0 +1,35 @@
+# Ignore compiled files
+/bin/
+/obj/
+/*.exe
+/*.dll
+
+# Ignore Visual Studio files
+.vscode/
+/.vs/
+/*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+/build/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.temp
+
+# Ignore packages
+/packages/
+*.nupkg
+*.snupkg
+
+# Ignore IDE config files
+.idea/
+*.iml
+*.csproj.user
+
+# Ignore other irrelevant files
+.DS_Store
+Thumbs.db
