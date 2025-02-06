@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-public class ContarNumeros
+public class CountNumbers
 {
     public static void Ejecutar()
     {

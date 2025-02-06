@@ -17,19 +17,19 @@ class Program
         switch (opcion)
         {
             case 1:
-                InvertirCadena.Ejecutar();
+                InvertString.Ejecutar();
                 break;
             case 2:
-                ContarCaracteres.Ejecutar();
+                CountCharacterOccurrences.Ejecutar();
                 break;
             case 3:
-                DistanciaHamming.Ejecutar();
+                HammingDistance.Ejecutar();
                 break;
             case 4:
-                ContadorPalabras.Ejecutar();
+                WordCounter.Ejecutar();
                 break;
             case 5:
-                ContarNumeros.Ejecutar();
+                CountNumbers.Ejecutar();
                 break;
             default:
                 Console.WriteLine("Opción no válida.");

@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class InvertirCadena
+public class InvertString
 {
     public static void Ejecutar()
     {

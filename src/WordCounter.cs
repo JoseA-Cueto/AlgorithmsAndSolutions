@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-public class ContadorPalabras
+public class WordCounter
 {
     public static void Ejecutar()
     {

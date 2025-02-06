@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class DistanciaHamming
+public class HammingDistance
 {
     public static void Ejecutar()
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-public class ContarCaracteres
+public class CountCharacterOccurrences
 {
     public static void Ejecutar()
     {
