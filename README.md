@@ -8,4 +8,5 @@ This repository contains basic and intermediate level programming exercises to p
 - `src/CountCharacterOccurrences.cs`: Code to count the occurrences of a specific character in a string.
 - `src/HammingDistance.cs`: Code to calculate the Hamming distance between two strings.
 - `src/WordCounter.cs`: Code to count the number of words in a string.
-- `src/CountNumbers.cs`: Code to count the numbers in a 
+- `src/CountNumbers.cs`: Code to count the numbers in a
+- `src/PrimeNumbers.cs`: Code to perform operations related to prime numbers.
