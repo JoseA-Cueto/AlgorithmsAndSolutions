@@ -11,6 +11,8 @@ class Program
         Console.WriteLine("4. Contador de Palabras");
         Console.WriteLine("5. Contar Numeros");
         Console.WriteLine("6. Check Prime Number");
+        Console.WriteLine("7. Bubble Sort");
+
         Console.Write("Opción: ");
 
         int opcion = int.Parse(Console.ReadLine());
@@ -34,6 +36,9 @@ class Program
                 break;
             case 6:
                 PrimeNumbers.Execute();
+                break;
+            case 7:
+                BubbleSort.Execute();
                 break;
             default:
                 Console.WriteLine("Opción no válida.");

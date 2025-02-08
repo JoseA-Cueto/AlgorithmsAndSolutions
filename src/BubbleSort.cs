@@ -1,8 +1,9 @@
 ﻿using System;
 
-class BubbleSort
+public class BubbleSort
 {
-    static void Main(string[] args)
+
+    public static void Execute()
     {
         int[] array = { 64, 34, 25, 12, 22, 11, 90 };
 
@@ -15,7 +16,7 @@ class BubbleSort
         PrintArray(array);
     }
 
-    static void Sort(int[] array)
+        public static void Sort(int[] array)
     {
         int n = array.Length;
         for (int i = 0; i < n - 1; i++)
@@ -33,7 +34,7 @@ class BubbleSort
         }
     }
 
-    static void PrintArray(int[] array)
+    public static void PrintArray(int[] array)
     {
         foreach (int item in array)
         {
@@ -42,4 +43,5 @@ class BubbleSort
         Console.WriteLine();
     }
 }
+
 
