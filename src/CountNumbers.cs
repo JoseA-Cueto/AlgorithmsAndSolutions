@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Text.RegularExpressions;
+using System.Linq;
 
 public class CountNumbers
 {
     public static void Ejecutar()
     {
         string text = "ufbsaubfa2176t467214haBFBA@@@";
-        string pattern = @"[0-9]";
-        var regex = new Regex(pattern);
-        int cont = regex.Matches(text).Count;
-        Console.WriteLine("cantidad: " + cont);
+
+        int count = text.Count(char.IsDigit);
+
+        Console.WriteLine("Cantidad: " + count);
     }
 }
+
