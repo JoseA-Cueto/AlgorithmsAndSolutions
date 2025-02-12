@@ -18,8 +18,8 @@ public class PrimeNumbers
     private static bool IsPrime(int number)
     {
         if (number < 2) return false;
-        if (number == 2) return true; 
-        if (number % 2 == 0) return false; 
+        if (number == 2) return true; // 2 es el único primo par
+        if (number % 2 == 0) return false; // Si es par y no es 2, no es primo
 
         for (int i = 3; i <= Math.Sqrt(number); i += 2) 
         {
