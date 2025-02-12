@@ -7,18 +7,12 @@ public class CountCharacterOccurrences
     {
         string text = "kbhafbsagfsanfiusafnsahfysanajfa7sf8qwr9rwuahfiaifasjaqijo";
         char character = 'f';
-        int cont = 0;
 
-        foreach (char c in text)
-        {
-            if (c == character)
-            {
-                cont++;
-            }
-        }
+       
+        int count = text.Count(c => c == character);
 
-        cont = text.Where(c => c == character).Count();
-        Console.WriteLine($"Se repite la letra {character} {cont} veces");
+        Console.WriteLine($"Se repite la letra '{character}' {count} veces");
     }
 }
+
 

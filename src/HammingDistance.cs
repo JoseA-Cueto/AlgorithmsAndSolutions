@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 public class HammingDistance
 {
@@ -6,21 +7,15 @@ public class HammingDistance
     {
         string text1 = "patoasd";
         string text2 = "litoasf";
-        int longitud = 0;
 
         if (text1.Length != text2.Length)
         {
-            throw new Exception("No son iguales las cadenas");
+            throw new ArgumentException("Las cadenas deben tener la misma longitud.");
         }
 
-        for (int i = 0; i < text1.Length; i++)
-        {
-            if (text1[i] != text2[i])
-            {
-                longitud++;
-            }
-        }
+        int distancia = text1.Zip(text2, (c1, c2) => c1 != c2 ? 1 : 0).Sum();
 
-        Console.WriteLine(longitud);
+        Console.WriteLine($"Distancia de Hamming: {distancia}");
     }
 }
+
