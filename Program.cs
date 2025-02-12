@@ -13,6 +13,7 @@ class Program
         Console.WriteLine("6. Check Prime Number");
         Console.WriteLine("7. Bubble Sort");
         Console.WriteLine("8. Factorial");
+        Console.WriteLine("9. FibonacciSequence");
 
         Console.Write("Opción: ");
 
@@ -43,6 +44,9 @@ class Program
                 break;
             case 8:
                 Factorial.Execute();
+                break;
+            case 9:
+                FibonacciSequence.Execute();
                 break;
             default:
                 Console.WriteLine("Opción no válida.");
