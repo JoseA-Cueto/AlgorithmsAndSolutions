@@ -10,3 +10,4 @@ This repository contains basic and intermediate level programming exercises to p
 - `src/WordCounter.cs`: Code to count the number of words in a string.
 - `src/CountNumbers.cs`: Code to count the numbers in a
 - `src/PrimeNumbers.cs`: Code to perform operations related to prime numbers.
+- `src/BubbleSort.cs`:Code to implement the Bubble Sort algorithm, which sorts an array of integers in ascending order by repeatedly comparing adjacent elements and swapping them if they are in the wrong order. This process is repeated until no more swaps are needed.
