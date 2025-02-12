@@ -12,6 +12,7 @@ class Program
         Console.WriteLine("5. Contar Numeros");
         Console.WriteLine("6. Check Prime Number");
         Console.WriteLine("7. Bubble Sort");
+        Console.WriteLine("8. Factorial");
 
         Console.Write("Opción: ");
 
@@ -39,6 +40,9 @@ class Program
                 break;
             case 7:
                 BubbleSort.Execute();
+                break;
+            case 8:
+                Factorial.Execute();
                 break;
             default:
                 Console.WriteLine("Opción no válida.");
